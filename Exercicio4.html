@@ -1,0 +1,28 @@
+<meta charset="UTF-8">
+<script>
+    const number1 = Number (prompt("Escolha um numéro inteiro"));
+    const number2 = Number (prompt("Escolha outro numéro inteiro"));
+    const number3 = Number (prompt("Um terceiro numéro inteiro por favor"));
+
+    if (number1>number2 && number1>number3) {
+        alert(`O ${number1} é maior que ${number2} e ${number3}`);
+    }
+    else if (number2>number1 && number2>number3) {
+        alert(`O ${number2} é maior que ${number1} e que ${number2}`);
+    }
+    else if (number3>number1 && number3>number2) {
+        alert(`O ${number3} é maior que ${number1} e ${number2}`);
+    }
+    else if (number1==number2 && number1>number3) {
+        alert(`O ${number1} é igual a ${number2} e os dois numéros são maiores que ${number3}`);
+    }
+    else if (number2==number1 && number2>number3) {
+        alert(`O ${number2} é igual a ${number1} e os dois são maiores que ${number3}`);
+    }
+    else if (number3==number2 && number3>number1) {
+        alert(`O ${number3} é igual a ${number2} e os dois são maiores que ${number1}`);
+    }
+    else if (number1==number2 && number1==number3 && number2==number3) {
+        alert(`Os três numéros são iguais`);
+    }
+</script>
