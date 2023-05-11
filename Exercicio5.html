@@ -1,10 +1,14 @@
+<meta charset="UTF-8">
 <script>
-    const vogal = prompt("Escreva uma letra");
-    
-    if (vogal =="a" & vogal =="e" & vogal =="i" & vogal =="o" & vogal =="u") {
-        alert(`Essa letra é uma vogal`);
-    }
-    else (vogal== "outras letras") {
-        alert(`Essa letra não é uma vogal`);
-    }
+//Entrada
+    const letra = prompt("Informe uma letra:").toLowerCase();
+//Saída
+
+if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u") {
+  alert("A letra informada é uma vogal.");
+} 
+else {
+  alert("A letra informada é uma consoante.");
+}
+
 </script>
